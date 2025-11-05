@@ -1,6 +1,6 @@
 module "base" {
-  source = "../../modules/base"
-  project_id     = "vector-273283"
+  source = "../../modules/free"
+  project_id     = "cloud-vector-k8s"
   region         = "us-central1"
   zone           = "us-central1-a"
   instance_name  = "vm-1"

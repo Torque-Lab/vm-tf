@@ -8,7 +8,7 @@ terraform {
   }
 }
 provider "google" {
-  project = "vector-386205"
+  project = "cloud-vector-k8s"
   region  = "us-central1"
   credentials = file("~/.config/gcloud/application_default_credentials.json")
 }
